@@ -5,7 +5,7 @@ main {
 aside {
     max-width: 800px;
     margin: 10px;
-    border: 1px solid rgh (0 0 0 / 0.1);
+    border: 1px solid white;
     padding: 15px;
     background-color: #bbebf2;
     color: hsla(200,0%,0%,.7);
@@ -20,7 +20,7 @@ nav {
 nav a {
     color: white;
     display: block;
-    padding: 20 px;
+    padding: 20px;
 }
 
 h1 {
