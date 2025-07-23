@@ -1,22 +1,27 @@
-/* Color Palette: #505033, #264969, #cfcfb4, #b4cde4 */
+/* Color Palette: #4E5340, #697268, #9FD8CB, #b4cde4 */
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #cfcfb4;
-    color: #264969;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 2.5rem;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background-color: #95A3A4;
+    color: #697268;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #505033;
+    background-color: #4E5340;
     color: white;
     padding: 1rem 2rem;
 }
 
 .logo img {
-  height: 50px;
+  height: 150px;
   width: auto;
 }
 
@@ -37,20 +42,22 @@ nav a {
     padding: 5rem 2rem;
     color: white;
     text-align: center;
-    background-color: #264969;
+    background-color: #697268;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    font-family: Georgia, serif;
+.lora-hero h1 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .cta-button {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
-    background-color: #b4cde4;
-    color: #264969;
+    background-color: #B7D1DA;
+    color: #697268;
     font-weight: bold;
     border-radius: 5px;
     text-decoration: none;
@@ -69,18 +76,18 @@ nav a {
 
 h2 {
     font-family: Georgia, serif;
-    color: #505033;
+    color: #4E5340;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #264969;
+    background-color: #697268;
     color: white;
 }
 
 footer .social a {
-    color: #b4cde4;
+    color: #B7D1DA;
     margin: 0 0.5rem;
     text-decoration: none;
 }
