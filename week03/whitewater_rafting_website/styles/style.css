@@ -1,0 +1,86 @@
+/* Color Palette: #505033, #264969, #cfcfb4, #b4cde4 */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #cfcfb4;
+    color: #264969;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #505033;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-rafting') no-repeat center center/cover;
+    padding: 5rem 2rem;
+    color: white;
+    text-align: center;
+    background-color: #264969;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-family: Georgia, serif;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #b4cde4;
+    color: #264969;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.about,
+.trips,
+.reviews,
+.booking {
+    padding: 3rem 2rem;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #505033;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #264969;
+    color: white;
+}
+
+footer .social a {
+    color: #b4cde4;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
