@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | Jess Alicando | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column 2">
+                    <label for="fullname">Full Name</lable><br>
+                        <input type="text" id="fullname" name="fullname"><br>
+                </div>
+                <div class="form-item column 2">
+                    <label for="email">User Email</label><br>
+                    <input type="email" id="useremail" name="useremail"><br>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column 1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="googlechrome">Google Chrome</option>
+                        <option value="microsoftedge">Microsoft Edge</option>
+                        <option value="mozillafirefox">Mozilla Firefox</option>
+                    </select><br>
+                </div>
+                <div class="form-item column 1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet"><br>
+                </div>
+                <label for="feedback">List the places you have lived.</label>
+                <textarea id="feedback" name="feedback" rows="4"
+                    placeholder="Manila Philippines, Taguig Philippines, Urdaneta Pangasinan Philippines"></textarea>
+            </fieldset>
+            <button>Submit Poll</button>
+        </form>
+    </main>
+</body>
+<footer>
+    <p>
+        &copy;WDD 130 | HTML Form - User Poll Activity | Jess Alicando
+    </p>
+</footer>
+
+</html>
