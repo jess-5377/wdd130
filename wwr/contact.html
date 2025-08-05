@@ -44,7 +44,7 @@
                 <h2>Find Us Here:</h2>
                 <iframe
                     src="https://maps.google.com/maps?q=Dunkeld%20Rd%2C%20Aberfeldy%20PH15%202AQ%2C%20United%20Kingdom&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                    width="100%" height="300" allowfullscreen="" loading="lazy"
+                    width=1fr height="300" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
@@ -58,12 +58,19 @@
                 <label for="email">Email Address:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="purpose">Purpose of Message:</label>
-                <select id="purpose" type="radio" name="purpose">
-                    <option value="general">General Inquiry</option>
-                    <option value="reservation">Reservation Question</option>
-                    <option value="feedback">Website Suggestion</option>
-                </select>
+                <label for="purpose">Purpose of Message:</label><br>
+                    <div>
+                        <input type="radio" id="general" name="option" value="general">
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation" name="option" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="feedback" name="option" value="feedback" checked>
+                        <label for="feedback">Website Suggestion</label>
+                    </div>
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>

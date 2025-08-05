@@ -268,14 +268,16 @@ footer {
     padding: 2rem;
 }
 
-.contact-details, .map-container {
+.contact-details,
+.map-container {
     background-color: #f9f9f9;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.contact-details h2, .map-container h2 {
+.contact-details h2,
+.map-container h2 {
     margin-bottom: 1rem;
 }
 
@@ -298,7 +300,6 @@ footer {
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
-.contact-form select,
 .contact-form textarea {
     width: 100%;
     padding: 0.75rem;
@@ -336,7 +337,8 @@ footer {
     color: white;
     text-align: center;
     padding: 3rem 1rem;
-    margin: 0; /* prevent unexpected margin gap */
+    margin: 0;
+    /* prevent unexpected margin gap */
     position: relative;
     z-index: 1;
 }
