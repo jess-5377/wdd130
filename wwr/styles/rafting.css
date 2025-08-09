@@ -578,7 +578,8 @@ footer {
 /* Adjust Adventure Section Image Size */
 .adventure-card img {
     width: 100%;
-    height: 180px; /* smaller height */
+    height: 180px;
+    /* smaller height */
     object-fit: cover;
 }
 
@@ -593,7 +594,7 @@ footer {
     background: black;
     color: white;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .history-section .adventure-section img {
@@ -607,4 +608,109 @@ footer {
     padding: 0.5rem;
     font-size: 1rem;
     font-weight: bold;
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.newsletter-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    flex: 1 1 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #e65500;
+}
+
+/* Call to Action Section */
+.call-to-action {
+    background: url('images/cta-bg.jpg') center/cover no-repeat;
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.call-to-action::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cta-container {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    z-index: 1;
+}
+
+.call-to-action h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e65500;
 }
