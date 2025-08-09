@@ -4,70 +4,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="Jess Mc Allister Pacapac Alicando" description="Rafting Website About Page">
-    <title>Whitewater Rafting Adventures | Jess Alicando | WDD130</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-    </style>
+    <meta name="description" content="Splash White Water Rafting - Home Page">
+    <meta name="author" content="Jess Mc Allister Pacapac Alicando">
+    <title>Home - Splash White Water Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="logo"><img src="images/logo.png" alt="Whitewater Rafting Logo"></div>
+        <div class="logo"><img src="images/logo.png" alt="Splash White Water Rafting Logo"></div>
         <nav>
             <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#trips">Trips</a></li>
-                <li><a href="#booking">Book Now</a></li>
-                <li><a href="#reviews">Reviews</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Destinations</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="hero">
+            <img src="images/raftingimages1.jpg" alt="Whitewater Rafting Adventure">
             <h1>Experience the Thrill of Whitewater Rafting</h1>
-            <p>Adventure awaits—book your trip today!</p>
-            <a href="#booking" class="cta-button">Plan Your Adventure</a>
+            <article>
+                <img src="images/raftingimages2.jpg" alt="Rafting Crew Enjoying the Ride">
+                <p>At Splash White Water Rafting, we bring you closer to nature while giving you the rush of
+                    adrenaline you crave. Whether you're a beginner or a seasoned rafter, our adventures promise
+                    unforgettable memories.</p>
+            </article>
         </section>
 
-        <section id="about" class="about">
-            <h2>About Us</h2>
-            <p>We offer unforgettable whitewater rafting experiences for adventurers of all levels. Come enjoy nature,
-                challenge yourself, and make lasting memories.</p>
+        <section class="history-section">
+            <h2>Our Story</h2>
+            <div class="history-content">
+                <div class="history-paragraph">
+                    <p>Founded with a passion for adventure and love for the river, Splash White Water Rafting has been
+                        guiding thrill-seekers for over 20 years. We pride ourselves on safety, fun, and creating
+                        moments you'll treasure forever.</p>
+                </div>
+                <div class="history-image">
+                    <img src="images/raftingmainimage.jpg" alt="Rafting History">
+                    <img src="images/raftingmainimage2.jpg" alt="Rafting History">
+                </div>
+                <div class="history-paragraph">
+                    <p>From serene scenic floats to heart-pounding rapids, our trips cater to all levels of experience.
+                        Every journey with us is an opportunity to bond with nature and with each other.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="trips" class="trips">
-            <h2>Trip Options</h2>
-            <ul>
-                <li><strong>Beginner Rapids:</strong> Perfect for families and first-time rafters.</li>
-                <li><strong>Intermediate:</strong> A mix of calm and thrill for a balanced ride.</li>
-                <li><strong>Advanced:</strong> High-adrenaline adventure for experienced rafters.</li>
-            </ul>
+        <section>
+            <h2>Why Choose Us?</h2>
+            <div class="adventure-section">
+                <figure class="adventure-card">
+                    <img src="images/adventure1.jpg" alt="Scenic River View">
+                    <figcaption>Scenic River Views</figcaption>
+                </figure>
+                <figure class="adventure-card">
+                    <img src="images/adventure2.jpg" alt="Rafting Teamwork">
+                    <figcaption>Teamwork & Safety</figcaption>
+                </figure>
+                <figure class="adventure-card">
+                    <img src="images/adventure3.jpg" alt="Thrilling Rapids">
+                    <figcaption>Thrilling Rapids</figcaption>
+                </figure>
+            </div>
         </section>
 
-        <section id="reviews" class="reviews">
-            <h2>What Our Rafters Say</h2>
-            <blockquote>“Absolutely incredible experience! Our guide was professional, funny, and made us feel safe the
-                whole time.”</blockquote>
-            <cite>— Maria L.</cite>
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <div class="newsletter-container">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with the latest rafting adventures, promotions, and news straight to your inbox!</p>
+                <form action="#" method="post" class="newsletter-form">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
         </section>
 
-        <section id="booking" class="booking">
-            <h2>Book Your Trip</h2>
-            <p>Select your trip, choose your date, and get ready for the adventure of a lifetime.</p>
-            <!-- The # link redirects the user back to the default website after browsing-->
-            <a href="#" class="cta-button">Start Booking</a>
+        <section class="call-to-action">
+            <div class="cta-container">
+                <h2>Ready for Your Next Adventure?</h2>
+                <p>Book your rafting trip today and experience the thrill of the river with our expert guides!</p>
+                <a href="contact.html" class="cta-button">Book Now</a>
+            </div>
         </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2025 Whitewater Rafting Adventures. All rights reserved.</p>
-        <div class="social">
-            <!-- The links are temporarily set to '#', actual links will be made later on-->
-            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">YouTube</a>
+        <div class="footer-content">
+            <p>&copy; 2025 Splash White Water Rafting</p>
+            <div class="socialmedia">
+                <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+            </div>
         </div>
     </footer>
 </body>
